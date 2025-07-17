@@ -197,6 +197,16 @@ const Index = () => {
               <ValueCard key={index} {...point} />
             ))}
           </div>
+          
+          {/* CTA after value proposition */}
+          <div className="text-center mt-16">
+            <Button onClick={scrollToForm} variant="cta" size="lg" className="mb-4">
+              🎥 Get Your Free Audit Now - Worth $2,500
+            </Button>
+            <p className="text-sm text-muted-foreground">
+              Join 1,200+ businesses that increased revenue by 82%
+            </p>
+          </div>
         </div>
       </section>
 
@@ -262,6 +272,16 @@ const Index = () => {
               <div className="text-muted-foreground">Audit Turnaround</div>
             </div>
           </div>
+          
+          {/* CTA after testimonials */}
+          <div className="text-center mt-16">
+            <Button onClick={scrollToForm} variant="cta" size="lg" className="mb-4">
+              💰 Get My Revenue Audit - Free
+            </Button>
+            <p className="text-sm text-muted-foreground">
+              Ready to join our success stories? Get started now.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -281,6 +301,16 @@ const Index = () => {
             {processSteps.map((step, index) => (
               <ProcessStep key={index} step={index + 1} {...step} />
             ))}
+          </div>
+          
+          {/* CTA after process steps */}
+          <div className="text-center mt-16">
+            <Button onClick={scrollToForm} variant="cta" size="lg" className="mb-4">
+              🚀 Start Your Free Audit Today
+            </Button>
+            <p className="text-sm text-muted-foreground">
+              Ready in 24-48 hours • No strings attached
+            </p>
           </div>
         </div>
       </section>
@@ -315,6 +345,16 @@ const Index = () => {
                     <p className="text-muted-foreground">Get a step-by-step plan to recover lost revenue</p>
                   </div>
                 </div>
+              </div>
+              
+              {/* CTA in proof section */}
+              <div className="mt-8">
+                <Button onClick={scrollToForm} variant="cta" size="lg" className="mb-3">
+                  🎯 Claim Your Free Revenue Audit
+                </Button>
+                <p className="text-sm text-muted-foreground">
+                  See exactly what's costing you money
+                </p>
               </div>
             </div>
             <div className="relative">
@@ -353,6 +393,16 @@ const Index = () => {
                 </AccordionItem>
               ))}
             </Accordion>
+          </div>
+          
+          {/* CTA after FAQ */}
+          <div className="text-center mt-16">
+            <Button onClick={scrollToForm} variant="cta" size="lg" className="mb-4">
+              ✅ Get Started - Free Audit Available Now
+            </Button>
+            <p className="text-sm text-muted-foreground">
+              All questions answered? Let's get your audit started.
+            </p>
           </div>
         </div>
       </section>
