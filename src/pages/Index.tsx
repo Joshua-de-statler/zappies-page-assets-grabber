@@ -127,10 +127,10 @@ const Index = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-12 pb-16 bg-gradient-subtle">
+      <section className="pt-16 pb-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div className="space-y-6">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground font-heading leading-tight">
                   Stop Losing 67% of Your Qualified Leads
@@ -181,9 +181,9 @@ const Index = () => {
       <TrustBar />
 
       {/* Value Proposition Section */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+          <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-foreground font-heading mb-4">
               Discover What's Costing You Thousands in Lost Revenue
             </h2>
@@ -192,14 +192,14 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {valuePoints.map((point, index) => (
               <ValueCard key={index} {...point} />
             ))}
           </div>
           
           {/* CTA after value proposition */}
-          <div className="text-center mt-12">
+          <div className="text-center mt-16">
             <Button onClick={scrollToForm} variant="cta" size="lg" className="mb-4">
               🎥 Get Your Free Audit Now - Worth $2,500
             </Button>
@@ -211,9 +211,9 @@ const Index = () => {
       </section>
 
       {/* Social Proof Section - Join our 1200+ businesses with Testimonials */}
-      <section className="py-16 bg-muted/30">
+      <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+          <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-foreground font-heading mb-4">
               Join our 1,200+ businesses that increased their revenue by 82%
             </h2>
@@ -223,7 +223,7 @@ const Index = () => {
           </div>
           
           {/* Testimonials Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16">
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="shadow-medium hover:shadow-large transition-shadow duration-300">
                 <CardContent className="p-8">
@@ -258,7 +258,7 @@ const Index = () => {
           </div>
 
           {/* Results Stats */}
-          <div className="grid sm:grid-cols-3 gap-6 text-center">
+          <div className="grid sm:grid-cols-3 gap-8 text-center">
             <div className="space-y-2">
               <div className="text-4xl font-bold text-primary">98%</div>
               <div className="text-muted-foreground">Client Satisfaction</div>
@@ -274,7 +274,7 @@ const Index = () => {
           </div>
           
           {/* CTA after testimonials */}
-          <div className="text-center mt-12">
+          <div className="text-center mt-16">
             <Button onClick={scrollToForm} variant="cta" size="lg" className="mb-4">
               💰 Get My Revenue Audit - Free
             </Button>
@@ -286,9 +286,9 @@ const Index = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+          <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-foreground font-heading mb-4">
               How It Works
             </h2>
@@ -297,14 +297,14 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-12">
             {processSteps.map((step, index) => (
               <ProcessStep key={index} step={index + 1} {...step} />
             ))}
           </div>
           
           {/* CTA after process steps */}
-          <div className="text-center mt-12">
+          <div className="text-center mt-16">
             <Button onClick={scrollToForm} variant="cta" size="lg" className="mb-4">
               🚀 Start Your Free Audit Today
             </Button>
@@ -316,9 +316,9 @@ const Index = () => {
       </section>
 
       {/* Proof Section */}
-      <section className="py-16 bg-muted/30">
+      <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground font-heading mb-6">
                 See exactly what you're missing with our AI-powered analysis
@@ -369,9 +369,9 @@ const Index = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+          <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground font-heading mb-4">
               Frequently Asked Questions
             </h2>
@@ -396,7 +396,7 @@ const Index = () => {
           </div>
           
           {/* CTA after FAQ */}
-          <div className="text-center mt-12">
+          <div className="text-center mt-16">
             <Button onClick={scrollToForm} variant="cta" size="lg" className="mb-4">
               ✅ Get Started - Free Audit Available Now
             </Button>
