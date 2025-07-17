@@ -127,15 +127,15 @@ const Index = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-16 pb-20 bg-gradient-subtle">
+      <section className="pt-12 pb-16 bg-gradient-subtle">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
-              <div className="space-y-4">
-                <h1 className="text-4xl lg:text-6xl font-bold text-foreground font-heading leading-tight">
+          <div className="grid lg:grid-cols-2 gap-8 items-center">
+            <div className="space-y-6">
+              <div className="space-y-3">
+                <h1 className="text-4xl lg:text-5xl font-bold text-foreground font-heading leading-tight">
                   Stop Losing 67% of Your Qualified Leads
                 </h1>
-                <p className="text-xl text-muted-foreground leading-relaxed">
+                <p className="text-lg text-muted-foreground leading-relaxed">
                   Get a free AI-powered audit that reveals exactly where your funnel is bleeding money and how to fix it in the next 30 days.
                 </p>
               </div>
@@ -150,7 +150,7 @@ const Index = () => {
                 </div>
               </div>
               
-              <div className="flex items-center gap-6 pt-4">
+              <div className="flex items-center gap-4 pt-2">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-foreground">1,200+</div>
                   <div className="text-sm text-muted-foreground">Businesses Helped</div>
@@ -369,19 +369,19 @@ const Index = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20">
+      <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground font-heading mb-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-foreground font-heading mb-3">
               Frequently Asked Questions
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-lg text-muted-foreground">
               Everything you need to know about our free audit process
             </p>
           </div>
           
           <div className="max-w-3xl mx-auto">
-            <Accordion type="single" collapsible className="space-y-4">
+            <Accordion type="single" collapsible className="space-y-3">
               {faqItems.map((item, index) => (
                 <AccordionItem key={index} value={`item-${index}`} className="border border-border rounded-lg px-6">
                   <AccordionTrigger className="text-left font-semibold">
@@ -396,7 +396,7 @@ const Index = () => {
           </div>
           
           {/* CTA after FAQ */}
-          <div className="text-center mt-16">
+          <div className="text-center mt-12">
             <Button onClick={scrollToForm} variant="cta" size="lg" className="mb-4">
               ✅ Get Started - Free Audit Available Now
             </Button>
